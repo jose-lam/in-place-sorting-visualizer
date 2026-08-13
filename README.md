@@ -85,3 +85,7 @@ The dashboard reports two operation counts side by side:
 | Shell Sort     | O(n^1.5)               | O(1)               | No     |
 | Heap Sort      | O(n log n)             | O(1)               | No     |
 | Insertion Sort | O(n²)                  | O(1)               | Yes    |
+
+## Developer's Note
+ 
+The sorting algorithms and their core logic were implemented and studied by me. For the project infrastructure (CMake configuration, GitHub Actions CI, and the console dashboard), I used AI assistance to speed up development and apply good C++ project structuring practices.
