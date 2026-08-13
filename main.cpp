@@ -1,6 +1,6 @@
-#include <iostream>
+#include "include/VisualizerApi.hpp"
 
 int main() {
-    std::cout << "In-Place Sorting Visualizer - build system ready." << std::endl;
+    VisualizerApi::run();
     return 0;
 }
